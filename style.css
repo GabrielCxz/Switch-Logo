@@ -1,0 +1,85 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: red;
+        height: 100%;
+        width: 100%;
+    }
+
+    .recorte {
+        height: 115px;
+        width: 45px;
+        border-radius: 22px 1px 1px 22px;
+        background-color: red;
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 10px;
+    }
+
+    .joyconleft {
+        background-color: white;
+        border-radius: 34px 2px 2px 34px;
+        width: 65px;
+        height: 136px;
+        position: absolute;
+        animation-name: descer;
+        animation-duration: 0.8s;
+        animation-delay: 1s;
+    }
+
+    .analogleft {
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 999px;
+        margin-top: 17px;
+        margin-left: 10px;
+    }
+
+    .joyconright {
+        background-color: white;
+        border-radius: 2px 34px 34px 2px;
+        width: 65px;
+        height: 136px;
+        position: absolute;
+        margin-left: 81px;
+        animation-name: subir;
+        animation-duration: 0.8s;
+        animation-delay: 1s;
+    }
+
+    .analogright {
+        width: 25px;
+        height: 25px;
+        background-color: red;
+        border-radius: 999px;
+        margin-top: 62px;
+        margin-left: 17px;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 146px;
+        height: 136px;
+    }
+
+    @keyframes subir {
+        0%      {margin-top: 0;} 
+        50%     {margin-top: -100px;}
+        60%     {margin-top: 0;}
+        70%     {margin-top: 16px;}  
+        100%    {margin-top: 0;} 
+    }
+
+    @keyframes descer {
+        0%      {margin-top: 0;} 
+        50%     {margin-top: 0}
+        60%     {margin-top: 0;}
+        70%     {margin-top: 16px;}  
+        100%    {margin-top: 0;} 
+    }
