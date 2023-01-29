@@ -2,4 +2,5 @@
 
 Logo do Nintendo Switch feita totalmente em CSS
 
-<img width="500" height="500" src="logo.gif">
+<img width="5
+300" height="300" src="logo.gif">
